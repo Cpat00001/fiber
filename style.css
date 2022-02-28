@@ -2,7 +2,61 @@
 Theme Name: Fiber
 Theme URI: http://wordpress.org/themes/fiber
 Author: Patryk
+Template: Fiber
 */
 body {
   background-color: pink;
+}
+/* TopMenuHeader */
+/* .menu-menu-topmenuheader-container {
+  background-color: antiquewhite;
+  text-align: center;
+}
+.menu-menu-topmenuheader-container > ul#menu-menu-topmenuheader {
+  list-style-type: none;
+  padding: 20px;
+} */
+
+/* Navbar Menu && Logo */
+.navbarHead {
+  background-color: rgb(192, 192, 192);
+}
+.menu > li {
+  display: inline-block;
+  margin-right: 50px;
+}
+.menu > li > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+.marketingwsieci {
+  font-size: 9px;
+  font-weight: 900;
+  text-align: center;
+}
+.fiberlogo {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.navbar-brand {
+  /* background-color: goldenrod; */
+  background-image: linear-gradient(to bottom right, goldenrod, gold);
+  color: grey;
+  padding: 1.5rem;
+}
+
+/* media  => custom styling on responsive */
+@media (max-width: 991.98px) {
+  .menu > li {
+    width: 100%;
+    display: grid;
+    background-color: rgb(68, 26, 185);
+    text-align: center;
+  }
+  .marketingwsieci {
+    font-size: 15px;
+    font-weight: 900;
+  }
 }
