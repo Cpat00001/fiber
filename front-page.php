@@ -3,11 +3,10 @@
 get_header();
 ?>
 <div class="container">
-    <div style="margin-top:200px">
-        <h5>This is text from front-page.php</h5>
-    </div>
+    <div class="topDistance"></div>
+</div>
     <?php get_template_part('partials/home_center'); ?>
- </div><!-- end of bootstrap container -->
+
  
 
 
