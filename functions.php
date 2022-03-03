@@ -1,13 +1,12 @@
 <?php
 
 //add styling
-
 function fiber_enqueue_style()
 {
     $parenthandle = 'stylesheet';
-    wp_enqueue_style($parenthandle , get_template_directory_uri() . '/style.css','false');
+    wp_enqueue_style($parenthandle , get_template_directory_uri() . '/style.css','false', '1.1', 'all');
+    wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js' , array('jquery') , 1.1 , true);
 }
-
 //add functions
 add_action('wp_enqueue_scripts', 'fiber_enqueue_style');
 
