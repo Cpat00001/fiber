@@ -5,7 +5,8 @@ Author: Patryk
 Template: Fiber
 */
 body {
-  background-color: #c4c2c2;
+  /* background-color: #c4c2c2; */
+  background-color: #005995;
 }
 /* Navbar Menu && Logo */
 .navbarHead {
@@ -46,26 +47,29 @@ body {
 /* @@@@@@@@@ Home Page */
 /* Home_center.php */
 .cardsPanel {
-  box-shadow: 20px 1px 50px 30px red;
+  /* box-shadow: 10px 10px 10px 10px #ff1d58; */
+  margin-top: 2%;
 }
 .hc1 {
-  border: 2px solid grey;
-  background-color: #abf62d;
+  /* border: 2px solid grey; */
+  background-color: #005995;
   min-height: 400px;
 }
 .hc2 {
-  border: 2px solid #0f0c24;
-  background-color: grey;
+  /* border: 2px solid #0f0c24; */
+  background-color: #eb1736;
+  /* background-color: #005995; */
+  color: white;
   min-height: 400px;
-  padding: 0px;
+  padding: 2%;
 }
-.marketingPhoto {
+.ofertaTextGlowny {
+  float: right;
+  color: white;
+  font-weight: 800;
+  font-size: 4.25rem;
 }
-.x {
-  height: 100px;
-  border: 1px solid black;
-}
-/* third row => sprawdzam relative = absolute positioning  */
+/* third row */
 .rowOne {
   position: relative;
   /* background-color: #161f6d; */
@@ -82,22 +86,19 @@ body {
   padding: 1em;
   margin-top: 20%;
   margin-left: 2%;
-  border-right: 25px solid #abf62d;
-  background-color: #161f6d;
+  border-right: 150px solid white;
+  color: white;
+  background-color: #0f0c24;
   z-index: 2;
   /* opacity: 1; */
   float: right;
   font-size: 4.25rem;
   font-weight: 700;
-  color: #abf62d;
   font-family: Georgia, serif;
 }
-.y:hover {
-  /* opacity: 0.5; */
-  font-size: 4.25rem;
-  font-weight: 700;
-  border-right: 25px solid white;
-  color: white;
+.ysmalltext {
+  font-size: 1rem;
+  font-weight: 400;
   font-family: Georgia, serif;
 }
 /* third row */
@@ -105,6 +106,13 @@ body {
   height: 100%;
   background-position: center center;
   background-position: left 0px right 0px;
+}
+
+/* Footer */
+.footer {
+  min-height: 300px;
+  background-color: #0f0c24;
+  color: white;
 }
 
 /* media  => custom styling on responsive */
