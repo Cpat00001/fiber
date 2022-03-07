@@ -7,7 +7,7 @@
 <div class="container">
     <div class="row cardsPanel">
         <div class="col-md-4 col-sm-12 hc1">
-            <h1 class="ofertaTextGlowny">Tradoo <br> oferta</h1>
+            <h1 class="ofertaTextGlowny">Fiber <br> oferta</h1>
         </div>
         <!-- hide col-md-4 on small devices -->
         <div class="col-md-4 d-none d-md-block hc1"></div>
@@ -55,6 +55,8 @@
             <h1 class="ofertaTextGlowny">SEO + marketing treści</h1>
         </div>
     </div>
+</div>
+<!-- close div of class='container' -->
 </div>
 
 
