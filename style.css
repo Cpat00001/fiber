@@ -7,6 +7,7 @@ Template: Fiber
 body {
   /* background-color: #c4c2c2; */
   background-color: #161f6d;
+  color: #c0c0c0;
 }
 /* Navbar Menu && Logo */
 .navbarHead {
@@ -53,25 +54,56 @@ body {
   /* box-shadow: 10px 10px 10px 10px #ff1d58; */
   margin-top: 2%;
 }
+.hc1_kontakt {
+  /* border: 2px solid grey; */
+  background-color: #ff0028;
+  min-height: 400px;
+}
+.hc1_kontakt_belka {
+  background-color: #ff0028;
+}
 .hc1 {
   /* border: 2px solid grey; */
   background-color: #161f6d;
   min-height: 400px;
 }
+
 .hc2 {
   /* border: 2px solid #0f0c24; */
-  background-color: #eb1736;
+  /* background-color: #eb1736; */
+  /* border-bottom: 5px solid #eb1736;
+  border-right: 5px solid #eb1736; */
   /* background-color: #005995; */
   color: white;
   min-height: 400px;
   padding: 2%;
 }
+.hc2_kontakt {
+  background-image: linear-gradient(to bottom right, #ff0028, #9b111e);
+  /* color: white; */
+  min-height: 400px;
+  padding: 2%;
+}
 .ofertaTextGlowny {
-  float: right;
-  color: white;
+  float: left;
+  color: #c0c0c0;
   font-weight: 800;
   font-size: 4.25rem;
 }
+.digitalWizytowka {
+  color: red;
+}
+.loop_oferta_uslugi {
+  color: #2568fb;
+  /* background-color:red; */
+  background-image: linear-gradient(to bottom right, #0f0c24, #161f6d);
+  border-left: 5px solid red;
+  text-align: left;
+  padding: 2%;
+  margin-top: 2%;
+  box-shadow: 1px 1px 1px 1px #2568fb;
+}
+
 /* third row */
 .rowOne {
   position: relative;
@@ -105,35 +137,50 @@ body {
   font-family: Georgia, serif;
 }
 /* third row */
-.marketingPhoto {
+/* .marketingPhoto {
   height: 100%;
   background-position: center center;
   background-position: left 0px right 0px;
-}
+} */
 
 /* Footer */
 .footer {
   min-height: 300px;
   background-color: #0f0c24;
-  color: white;
+  color: #2568fb;
+  border-bottom: 1px solid #2568fb;
+  margin-top: 2%;
+  /* margin-bottom: 2%; */
+}
+.boot_footer {
+  background-color: #161f6d;
 }
 .f1 {
   background-color: #161f6d;
   padding: 1%;
-  border: 1px solid black;
+  text-align: center;
+  /* border: 1px solid black; */
   margin-top: 1%;
+  box-shadow: 2px 2px 1px 1px #2568fb;
+  border-left: 5px solid red;
 }
-.f2 {
+
+.boot_footer2 {
   background-color: #161f6d;
-  padding: 1%;
-  border: 1px solid black;
-  margin-top: 1%;
+  margin-top: 2%;
 }
-.f3 {
+.boot_footer_row {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.f4 {
   background-color: #161f6d;
-  padding: 1%;
-  border: 1px solid black;
-  margin-top: 1%;
+  border: 1px solid #0f0c24;
+  color: #2568fb;
+  text-align: center;
+  min-height: 50px;
+  padding: 2%;
+  margin-right: 1%;
 }
 /* end of foot styling */
 
@@ -191,5 +238,13 @@ body {
     font-size: 1.75rem;
     font-weight: 700;
     color: white;
+  }
+  .navbar-toggler-icon {
+    background-color: #eb1736;
+    border-radius: 5px;
+  }
+  .f4 {
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
 }

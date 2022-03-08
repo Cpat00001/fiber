@@ -8,7 +8,7 @@ if($query->have_posts()){
         ?>
         
         <h1 class="ofertaTextGlowny" style="float:left;"><?php the_title(); ?></h1>
-        <h2 style="clear:left"><?php the_content(); ?></h2>
+        <h2 style="clear:left;"><?php the_content(); ?></h2>
         
     <?php
     }

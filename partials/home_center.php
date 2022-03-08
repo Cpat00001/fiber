@@ -7,11 +7,11 @@
 <div class="container">
     <div class="row cardsPanel">
         <div class="col-md-4 col-sm-12 hc1">
-            <h1 class="ofertaTextGlowny">Fiber <br> oferta</h1>
+            <h1 class="ofertaTextGlowny">oferta</h1>
         </div>
         <!-- hide col-md-4 on small devices -->
-        <div class="col-md-4 d-none d-md-block hc1"></div>
-        <div class="col-md-4 col-sm-auto hc2">
+        <!--<div class="col-md-2 d-none d-md-block hc1"></div>-->
+        <div class="col-md-8 col-sm-auto hc2">
         <?php 
         // get template part with loop over category_name 
         include 'DB_query/get_services_post.php';
@@ -20,19 +20,28 @@
 </div>
 
 <div class="container mt-4">
-    <h1 class="ofertaTextGlowny">Nowa <br> rzeczywistość</h1>
     <div class="row">
-        <div class="col-sm-12 col-md-12 hc2" style="padding:0px;">
-            <img src="<?php echo bloginfo('template_directory') . '/images/marketing.jpg' ?>" class="img-fluid marketingPhoto">
+        <div class="col-sm-10 col-md-4 hc2" style="padding:0px;">
+            <h1>Stretegia<br>Marketingowa</h1>
         </div>        
-        <!--<div class="col-sm-12 col-md-6 hc1"><h1>Col-8</h1></div>-->
+        <div class="col-sm-12 col-md-4 hc1">
+            <h1 class="ofertaTextGlowny">Nowa <br>lepsza <br>jakość</h1>
+        </div>
+        <div class="col-sm-12 col-md-4 hc1">
+            <?php 
+            include 'DB_query/get_webdev_post.php'; 
+            // include 'DB_query/get_services_post.php';
+            ?>
+        </div>
     </div>
 </div>
 <!-- Contact row -->
 <div class="container mt-4">
     <div class="row">
         <div class="col-md-4 col-sm-12 hc1">
-            <h1 class="ofertaTextGlowny">Wrapuj firmę digital wizytówką</h1>
+            <div class="div" style="float:right;"></div>
+            <!--<h1 class="ofertaTextGlowny">Digital wizytówka Twojej firmy</h1>-->
+            <h1 style="font-size:4.25rem;color: #c0c0c0;;font-weight: 800;">Digital wygląd<span style="color:#0f0c24;font-weight: 800;font-size:4.25rem;"><br>Twojej firmy</span></h1>
         </div>
         <!-- hide col-md-4 on small devices -->
         <div class="col-md-4 d-none d-md-block hc1"></div>
@@ -42,8 +51,16 @@
 <!-- Icons and Benefits row -->
 <div class="container mt-4">
     <div class="row">
-        <div class="col-md-8 col-sm-12 hc1"></div>
-        <div class="col-md-4 col-sm-auto hc2">
+        <div class="col-md-1 col-sm-12 hc1_kontakt"></div>
+        <div class="col-md-4 col-sm-12 hc1">
+            <div class="row">
+                <div class="col-sm-12"></div>
+                <div class="col-sm-12"></div>
+                <div class="col-sm-12 hc1_kontakt_belka"><h1>Ty i Internety</h1></div>
+            </div>
+        </div>
+        <div class="col-sm-3"></div>
+        <div class="col-md-4 col-sm-auto hc2_kontakt">
         <?php include 'DB_query/contact.php'; ?>
         </div>
     </div>

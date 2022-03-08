@@ -1,6 +1,7 @@
         <div class="container-fluid">
             <div class="row footer">
                 <?php get_template_part('partials/boot_footer') ?>
+                <?php get_template_part('partials/boot_footer2'); ?>
             </div>
         </div>
 
