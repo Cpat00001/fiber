@@ -56,11 +56,13 @@ body {
 }
 .hc1_kontakt {
   /* border: 2px solid grey; */
-  background-color: #ff0028;
-  min-height: 400px;
+  /* background-color: #ff0028;
+  min-height: 400px; */
 }
 .hc1_kontakt_belka {
-  background-color: #ff0028;
+  /* background-color: #ff0028; */
+  background-color: #0f0c24;
+  border-right: 0.5rem solid #ff0028;
 }
 .hc1 {
   /* border: 2px solid grey; */
@@ -79,10 +81,22 @@ body {
   padding: 2%;
 }
 .hc2_kontakt {
-  background-image: linear-gradient(to bottom right, #ff0028, #9b111e);
+  /* background-image: linear-gradient(to bottom right, #ff0028, #9b111e); */
   /* color: white; */
+  border-right: 0.5rem solid #ff0028;
+  border-bottom: 0.5rem solid #ff0028;
+
   min-height: 400px;
   padding: 2%;
+}
+.suplementKontakt_left {
+  background-color: #0f0c24;
+  /* height: 30px; */
+}
+.suplementKontakt_right {
+  background-color: #0f0c24;
+  /* height: 30px; */
+  border-right: 0.5rem solid #ff0028;
 }
 .ofertaTextGlowny {
   float: left;
@@ -93,6 +107,30 @@ body {
 .digitalWizytowka {
   color: red;
 }
+/* SEO section */
+.seo_left {
+  /* background-color: #2568fb; */
+}
+.seo_html {
+  text-align: center;
+}
+.seo_right {
+  /* background-color: #2568fb; */
+  color: #c0c0c0;
+  font-weight: 800;
+  font-size: 2.25rem;
+  /* padding: 70px 0; */
+}
+.center {
+  height: 32.3%;
+  border-bottom: 5px solid red;
+  background-color: #161f6d;
+  margin-top: 1%;
+  color: #c0c0c0;
+  padding: 70px 0;
+  text-align: center;
+}
+/* end of SEO */
 .loop_oferta_uslugi {
   color: #2568fb;
   /* background-color:red; */
@@ -228,6 +266,12 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+  .hc1 {
+    min-height: 200px;
+  }
+  .hc2 {
+    min-height: 200px;
+  }
   .y {
     /* height: 50%; */
     overflow: visible;

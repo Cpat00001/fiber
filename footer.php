@@ -1,3 +1,4 @@
+        <!--<div class="container-fluid">-->
         <div class="container-fluid">
             <div class="row footer">
                 <?php get_template_part('partials/boot_footer') ?>

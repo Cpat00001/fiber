@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-light fixed-top navbarHead">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><span class="fiberlogo">Fiber</span><br>
