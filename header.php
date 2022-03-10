@@ -9,7 +9,7 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class('nowa_classa');?>>
+
     <?php get_template_part('partials/boot_header'); ?>
-        
-        
-        <script src="" async defer></script>
+  
+    <script src="" async defer></script>

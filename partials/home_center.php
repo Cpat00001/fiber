@@ -1,10 +1,9 @@
-<div class="container-fluid">
-<!--<div class="container">-->
-    <div class="row rowOne">
-        <div class="col-10 y">digital marketing<br>
-            <span class="ysmalltext">KREACJA WIZERUNKU | BUDOWANIE MARKI | KOMUNIKACJA | ROZPOZNAWALNOŚĆ</span></div>
-    </div>
+
+<div class="row rowOne">
+    <div class="col-10 y">digital marketing<br>
+        <span class="ysmalltext">KREACJA WIZERUNKU | BUDOWANIE MARKI | KOMUNIKACJA | ROZPOZNAWALNOŚĆ</span></div>
 </div>
+
 <div class="container-fluid">
     <div class="row cardsPanel">
         <div class="col-md-4 col-sm-12 hc1">
@@ -17,8 +16,6 @@
                 </div>
             </div>
         </div>
-        <!-- hide col-md-4 on small devices -->
-        <!--<div class="col-md-2 d-none d-md-block hc1"></div>-->
         <div class="col-md-8 col-sm-auto hc2">
         <?php 
         // get template part with loop over category_name 
@@ -38,7 +35,6 @@
         <div class="col-sm-12 col-md-4 hc1">
             <?php 
             include 'DB_query/get_webdev_post.php'; 
-            // include 'DB_query/get_services_post.php';
             ?>
         </div>
     </div>
@@ -48,8 +44,7 @@
     <div class="row">
         <div class="col-md-4 col-sm-12 hc1">
             <div class="div" style="float:right;"></div>
-            <!--<h1 class="ofertaTextGlowny">Digital wizytówka Twojej firmy</h1>-->
-            <h1 style="font-size:4.25rem;color: #c0c0c0;;font-weight: 800;">Digital wygląd<span style="color:#0f0c24;font-weight: 800;font-size:4.25rem;"><br>Twojej firmy</span></h1>
+            <h1 class="digitalText">Digital wygląd<span class="digitalTextColor"><br>Twojej firmy</span></h1>
         </div>
         <!-- hide col-md-4 on small devices -->
         <div class="col-md-4 d-none d-md-block hc1"></div>
