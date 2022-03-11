@@ -237,7 +237,35 @@ body {
   margin-right: 1%;
   border-left: 5px solid #ff0028;
 }
+.footer_small {
+  background-color: #0f0c24;
+}
+.footer_small_content {
+  /* border: 1px solid #2568fb; */
+  color: #2568fb;
+  padding: 0.3%;
+}
 /* end of foot styling */
+/* formularz kontaktowy */
+.kontaktHead {
+  border: 1px solid white;
+}
+#wpforms-form-229 {
+  /* background-color: #2568fb; */
+  padding: 2%;
+  text-align: left;
+  border: 2px solid #161f6d;
+  margin-bottom: 100px;
+  margin-right: 5%;
+  border-radius: 1%;
+  box-shadow: 2px 2px 2px 2px #2568fb;
+}
+#wpforms-submit-229 {
+  background-color: #161f6d;
+  border: 1px solid #2568fb;
+  box-shadow: 1px 1px 1px 1px #2568fb;
+  color: #2568fb;
+}
 
 /* media  => custom styling on responsive */
 @media screen and (max-width: 1200px) and (min-width: 992px) {

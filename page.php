@@ -1,7 +1,7 @@
 <?php get_header() ?>
-<div style="height:500px;background-color:#A0AECD"></div>
-<h2><?php wp_title(); ?></h2>
+<div class="div" style="height:200px;"></div>
 <p><?php the_content(); ?></p>
+<!-- add small footer for every pages other than front-page -->
+<?php 
+    include 'partials/footer_small.php';
 
-
-<h1>What?</h1>
